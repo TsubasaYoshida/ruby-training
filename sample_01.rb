@@ -23,3 +23,11 @@ end
 
 puts while_only.nil? # true
 puts if_only.nil? # true
+
+
+# 後置ifは記述位置が後ろだけど、最後に評価されたことにはならない
+def back_if
+  name = "Tsubasa" if true
+end
+
+puts back_if # Tsubasa
