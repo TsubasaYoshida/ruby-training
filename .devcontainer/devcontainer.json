@@ -6,7 +6,7 @@
 	],
 	"service": "web",
 	"workspaceFolder": "/workspace",
-	"settings": { 
+	"settings": {
 		"terminal.integrated.shell.linux": null
 	},
 	"extensions": [
